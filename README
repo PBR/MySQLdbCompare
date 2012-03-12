@@ -1,0 +1,20 @@
+MySQLdbCompare
+==============
+
+This simple script allows to easily compare the scheme of two different MySQL
+database.
+
+The database can be local or remote but should be on the same host, they
+however can be accessed through two differents users.
+
+See:
+  python db_compare.py --help
+for more information on how to call this script.
+
+
+Dependencies:
+-------------
+- python-argparse
+- python-sqlalchemy
+
+Tested on python 2.7
